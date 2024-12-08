@@ -11,9 +11,12 @@ Go Captcha 是一个简洁易用、交互友好、高安全性的 "行为验证�
 
 
 - Github：[https://github.com/PandaManPMC/pic_captcha](https://github.com/PandaManPMC/go_captcha)
-- 示例：[https://github.com/PandaManPMC/pic_captcha_example](https://github.com/PandaManPMC/go_captcha_example)
 
 <br/>
+
+<div align="center"> 
+    <img src="https://raw.githubusercontent.com/PandaManPMC/public_src/refs/heads/main/other/Captcha.bmp" alt="Poster">
+</div>
 
 
 
