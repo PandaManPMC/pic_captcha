@@ -24,7 +24,7 @@ Go Captcha 是一个简洁易用、交互友好、高安全性的 "行为验证�
 ## 安装
 
 ```shell
-go get https://github.com/PandaManPMC/pic_captcha/captcha
+go get github.com/PandaManPMC/pic_captcha/captcha
 ```
 
 ## 验证模块

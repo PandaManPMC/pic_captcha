@@ -6,6 +6,8 @@ github.com/PandaManPMC/pic_captcha/assets v1.0.0 h1:Aia54Z8hp2HIjtuF+USpiqf7q9rG
 github.com/PandaManPMC/pic_captcha/assets v1.0.0/go.mod h1:yQqc7rRbxgLCg+tWtVp+7Y317D1wIZDan/yIwt8wSac=
 github.com/PandaManPMC/pic_captcha/captcha v0.0.0-20241208112807-766f2d239bd7 h1:/keSTWTT6rqMx+4SapIZ0Gf6eXoi9tbcvfLkbiPGt6E=
 github.com/PandaManPMC/pic_captcha/captcha v0.0.0-20241208112807-766f2d239bd7/go.mod h1:E1tTOpJszMgTkLCEw2+2tKJs9ihzLsIOzm6ov+bzr+E=
+github.com/PandaManPMC/pic_captcha/captcha v0.0.0-20241208135652-887ab22dbcf6 h1:LeHPeB6byzWV0c29/4jw5ahLE/6vxMvPsbnGAXliUR0=
+github.com/PandaManPMC/pic_captcha/captcha v0.0.0-20241208135652-887ab22dbcf6/go.mod h1:E1tTOpJszMgTkLCEw2+2tKJs9ihzLsIOzm6ov+bzr+E=
 github.com/PandaManPMC/pic_captcha/captcha v2.0.1 h1:N6XSHymJ7e9Z/LyWWTWLMAkAXtW27ZROZpvNrqPhSnA=
 github.com/PandaManPMC/pic_captcha/captcha v2.0.1/go.mod h1:5hac1em3uXoyC5ipZ0xFv9umNM/waQvYAQdr0cx/h34=
 github.com/PandaManPMC/pic_captcha/captcha v2.0.2-pre.1 h1:WvxjEjb9yPlv2/i6WLC2IYG0CXiMLsxp3cf8dK+zT60=
