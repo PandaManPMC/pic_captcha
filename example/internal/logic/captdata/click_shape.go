@@ -8,10 +8,10 @@ import (
 	"server-example/internal/cache"
 	"server-example/internal/helper"
 
-	"github.com/PandaManPMC/pic_captcha/assets/resources/images"
-	"github.com/PandaManPMC/pic_captcha/assets/resources/shapes"
 	"github.com/PandaManPMC/pic_captcha/captcha/base/option"
 	"github.com/PandaManPMC/pic_captcha/captcha/click"
+	"github.com/PandaManPMC/pic_captcha/captcha/resources/images"
+	"github.com/PandaManPMC/pic_captcha/captcha/resources/shapes"
 )
 
 var shapeCapt click.Captcha

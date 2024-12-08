@@ -24,15 +24,15 @@ Go Captcha 是一个简洁易用、交互友好、高安全性的 "行为验证�
 ## 安装
 
 ```shell
-$ go get -u https://github.com/PandaManPMC/pic_captcha/captcha
+go get https://github.com/PandaManPMC/pic_captcha/captcha
 ```
 
 ## 验证模块
-- <p>文字点选式 ✔</p>
-- <p>图形点选式 ✔</p>
-- <p>滑动式 ✔ </p>
-- <p>拖拽式 ✔ </p>
-- <p>旋转式 ✔ </p>
+- <p>文字点选式</p>
+- <p>图形点选式</p>
+- <p>滑动式</p>
+- <p>拖拽式</p>
+- <p>旋转式</p>
 
 
 

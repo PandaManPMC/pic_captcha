@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
+	"github.com/PandaManPMC/pic_captcha/captcha/helper"
 	"log"
 	"os"
 
-	"github.com/PandaManPMC/pic_captcha/assets/helper"
 	"github.com/go-bindata/go-bindata"
 )
 

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/PandaManPMC/pic_captcha/assets/helper"
-	"github.com/PandaManPMC/pic_captcha/assets/sourcedata/chars"
+	"github.com/PandaManPMC/pic_captcha/captcha/helper"
+	"github.com/PandaManPMC/pic_captcha/captcha/sourcedata/chars"
 	"github.com/golang/freetype/truetype"
 )
 

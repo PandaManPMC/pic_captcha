@@ -8,8 +8,8 @@ import (
 	"server-example/internal/cache"
 	"server-example/internal/helper"
 
-	"github.com/PandaManPMC/pic_captcha/assets/resources/images"
-	"github.com/PandaManPMC/pic_captcha/assets/resources/tiles"
+	"github.com/PandaManPMC/pic_captcha/captcha/resources/images"
+	"github.com/PandaManPMC/pic_captcha/captcha/resources/tiles"
 	"github.com/PandaManPMC/pic_captcha/captcha/slide"
 )
 

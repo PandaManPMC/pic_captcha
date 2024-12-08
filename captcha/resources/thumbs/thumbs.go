@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"image"
 
-	assets "github.com/PandaManPMC/pic_captcha/assets/bindata/thumbs"
-	"github.com/PandaManPMC/pic_captcha/assets/helper"
+	assets "github.com/PandaManPMC/pic_captcha/captcha/bindata/thumbs"
+	"github.com/PandaManPMC/pic_captcha/captcha/helper"
 )
 
 func GetThumbs() ([]image.Image, error) {

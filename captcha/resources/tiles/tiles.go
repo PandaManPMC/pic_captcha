@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"image"
 
-	assets "github.com/PandaManPMC/pic_captcha/assets/bindata/tiles"
-	"github.com/PandaManPMC/pic_captcha/assets/helper"
+	assets "github.com/PandaManPMC/pic_captcha/captcha/bindata/tiles"
+	"github.com/PandaManPMC/pic_captcha/captcha/helper"
 )
 
 type GraphImage struct {

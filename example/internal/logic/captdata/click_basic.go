@@ -8,11 +8,11 @@ import (
 	"server-example/internal/cache"
 	"server-example/internal/helper"
 
-	"github.com/PandaManPMC/pic_captcha/assets/bindata/chars"
-	"github.com/PandaManPMC/pic_captcha/assets/resources/fonts/fzshengsksjw"
-	"github.com/PandaManPMC/pic_captcha/assets/resources/images"
 	"github.com/PandaManPMC/pic_captcha/captcha/base/option"
+	"github.com/PandaManPMC/pic_captcha/captcha/bindata/chars"
 	"github.com/PandaManPMC/pic_captcha/captcha/click"
+	"github.com/PandaManPMC/pic_captcha/captcha/resources/fonts/fzshengsksjw"
+	"github.com/PandaManPMC/pic_captcha/captcha/resources/images"
 	"github.com/golang/freetype/truetype"
 )
 

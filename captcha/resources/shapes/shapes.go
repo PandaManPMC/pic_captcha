@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"image"
 
-	assets "github.com/PandaManPMC/pic_captcha/assets/bindata/shapes"
-	"github.com/PandaManPMC/pic_captcha/assets/helper"
+	assets "github.com/PandaManPMC/pic_captcha/captcha/bindata/shapes"
+	"github.com/PandaManPMC/pic_captcha/captcha/helper"
 )
 
 func GetShapes() (map[string]image.Image, error) {

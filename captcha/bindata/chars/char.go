@@ -9,10 +9,12 @@ func GetChineseChars() []string {
 	return chChars
 }
 
-// var alphaChars = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-var alphaChars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+var alphaChars = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 // GetAlphaChars 数字+字母组合
 func GetAlphaChars() []string {
+	return strings.Split(alphaChars, "")
+}
+Chars() []string {
 	return strings.Split(alphaChars, "")
 }

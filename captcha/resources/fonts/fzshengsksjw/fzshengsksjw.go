@@ -1,7 +1,7 @@
 package fzshengsksjw
 
 import (
-	assets "github.com/PandaManPMC/pic_captcha/assets/bindata/fonts/fzshengsksjw"
+	assets "github.com/PandaManPMC/pic_captcha/captcha/bindata/fonts/fzshengsksjw"
 	"github.com/golang/freetype"
 	"github.com/golang/freetype/truetype"
 )
