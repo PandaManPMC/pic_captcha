@@ -1,19 +1,18 @@
-import React, {useRef} from 'react'
-import GoCaptcha from 'go-captcha-react'
+import React from 'react'
+import pmc from 'pmc-react'
 // Cache Testing
 // import GoCaptcha from '../cache'
 import {useClickHandler} from "../hooks/useClickHandler";
 
 function ClickShapeCapt() {
-  const domRef = useRef(null)
 
-  const handler = useClickHandler(domRef, {
+  const handler = useClickHandler({
     getApi: "/api/go-captcha-data/click-shape",
     checkApi: "/api/go-captcha-check-data/click-shape"
   })
 
   return (
-    <GoCaptcha.Click
+    <pmc.CaptchaClick
       config={{
         width: 300,
         height: 220,
@@ -25,7 +24,6 @@ function ClickShapeCapt() {
         refresh: handler.refreshEvent,
         confirm: handler.confirmEvent,
       }}
-      ref={domRef}
     />
   );
 }

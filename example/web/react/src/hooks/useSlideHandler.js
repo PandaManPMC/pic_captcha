@@ -1,10 +1,10 @@
-import {useCallback, useEffect, useRef, useState} from "react";
+import {useCallback, useEffect, useState} from "react";
 import Lodash from "lodash";
 import Axios from 'axios'
 import { Message } from '@arco-design/web-react';
 import Qs from 'qs'
 
-export const useSlideHandler = (domRef, config) => {
+export const useSlideHandler = (config) => {
   const [state, setState] = useState({})
   const [data, setData] = useState({})
 
@@ -21,7 +21,6 @@ export const useSlideHandler = (domRef, config) => {
   }, [state])
 
   const requestCaptchaData = useCallback(() => {
-    domRef.current.clear && domRef.current.clear()
     Axios({
       method: 'get',
       url: config.getApi,
@@ -69,6 +68,7 @@ export const useSlideHandler = (domRef, config) => {
 
       setTimeout(() => {
         requestCaptchaData()
+        clear()
       }, 1000)
     }).catch((e)=>{
       console.warn(e)
