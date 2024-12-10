@@ -11,7 +11,7 @@ func GetChineseChars() []string {
 
 //var alphaChars = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-var alphaChars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+var alphaChars = "123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 // GetAlphaChars 数字+字母组合
 func GetAlphaChars() []string {
